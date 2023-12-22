@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: Roboto, Sans-Serif;
+    font-family: Roboto , Sans-Serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -45,20 +45,20 @@ a, .subtext, .caption {
     color: #F9FAF8;
 }
 
-.subheader {
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 150px;
-  
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    margin: 16px;
-    width: 40%;
+    flex-basis: 400px;
     gap: 10px;
+    margin-right: 50px;
+    flex: 1;
 }
 
 button {
@@ -73,6 +73,7 @@ button {
 img {
     background-color: gray;
     text-align: center;
+    flex-basis: 400px;
 }
 
 .middle {
@@ -145,6 +146,7 @@ img {
     margin: 40px auto;
     padding: 20px 50px;
     border-radius: 3px;
+    flex:1;
 }
 
 .button-2 {
